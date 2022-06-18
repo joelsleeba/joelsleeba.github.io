@@ -1,5 +1,65 @@
-baseURL = 'https://joelsleeba.github.io/mathblog/'
+baseURL = 'https://joelsleeba.github.io/blog/'
 languageCode = 'en-us'
-title = "Sleeba's Math Blog"
+title = "Sleeba's Shell Scripts"
 theme = 'cactus'
-publishdir = '../mathblog'
+publishdir = '../blog'
+copyright = "Joel Sleeba"
+
+# summaryLength = 2
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
+    
+[params]
+    description = "I'm Joel Sleeba. Sometimes I like Math. Give me a programming challenge and I can easily spend hours trying to solve it. I find aesthetic things attractive, and I find many stuff aesthetic"
+    colortheme = "white"
+    mainSectionTitle = "Blog"
+    showAllPostsOnHomePage = false
+    postsOnHomePage = 5
+    tagsOverview = true
+    tocInline = false
+    
+    mathjax = true
+    katex = true
+    
+[[params.social]]
+  name = "github"
+  link = "https://github.com/joelsleeba"
+
+[[params.social]]
+  name = "email"
+  link = "joelsleeba24@gmail.com"
