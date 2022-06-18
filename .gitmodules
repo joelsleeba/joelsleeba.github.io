@@ -1,3 +1,9 @@
-[submodule "themes/cactus"]
-	path = themes/cactus
-	url = https://github.com/monkeyWzr/hugo-theme-cactus.git
+[submodule "themes/hugo-shortcode-gallery"]
+	path = themes/hugo-shortcode-gallery
+	url = https://github.com/joelsleeba/hugo-shortcode-gallery.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/hugo-cite"]
+	path = themes/hugo-cite
+	url = https://github.com/loup-brun/hugo-cite.git

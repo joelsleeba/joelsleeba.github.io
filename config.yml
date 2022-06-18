@@ -1,0 +1,208 @@
+baseURL: "https://joelsleeba.github.io/"
+title: Joel Sleeba
+# paginate: 10
+theme: [PaperMod, hugo-shortcode-gallery]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+# For Search Functionality
+# https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/#search-page
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Joel Sleeba
+  description: "This is my website. I write stuff and upload pictures here."
+  keywords: [Joel Sleeba, Blog, Portfolio, PaperMod]
+  author: Joel Sleeba
+  # author: ["Me", "You"] # multiple authors
+  images:
+    [
+      "https://pbs.twimg.com/profile_banners/1591060034175504389/1668176669/1500x500",
+      "profile.png",
+    ]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # auto, dark, light
+  disableThemeToggle: true
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumby: false
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  math: true
+  tikzjax: false
+  social: true
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "favicon/favicon.ico"
+    favicon16x16: "favicon/favicon-16x16.png"
+    favicon32x32: "favicon/favicon-32x32.png"
+    apple_touch_icon: "favicon/apple-touch-icon.png"
+    safari_pinned_tab: "favicon/apple_touch_icon.png"
+    theme_color: "#ff0000"
+
+  label:
+    text: "Joel Sleeba"
+    icon: #favicon/apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Joel Sleeba
+    subtitle: "I am a math graduate student at the [University of Houston](https://www.uh.edu/nsm/math/). Earlier, I graduated with a masters in mathematics from [IISER Thiruvananthapuram](https://iisertvm.ac.in). I am interested in mathematical analysis and its applications. Besides math, I am interested in computer programming, Linux and FOSS."
+    imageUrl: "profile.png"
+    imageWidth: 160
+    imageHeight: 160
+    imageTitle: This is a picture of me.
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Gallery
+        url: gallery
+      - name: Resources
+        url: resources
+      - name: CSSart
+        url: https://joelsleeba.github.io/CSSart
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: "I am a math graduate student at University of Houston. I am a graduate from [IISER Thiruvananthapuram](https://iisertvm.ac.in). As part of my Master's thesis, I worked on Fourier analysis under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Currently, I am reading on C* algebras and operator theory with [Dr. P Shankar](https://iqac.cusat.ac.in/Web/profile_view/433/Dr.SHANKARP). Besides math, I am interested in computer programming, Linux, photography and movies. You can find some of my projects in my GitHub repositories."
+
+  socialIcons:
+    - name: CV
+      url: "https://github.com/joelsleeba/CV/raw/master/joel_sleeba.pdf"
+    - name: key
+      url: "https://joelsleeba.github.io/landing-page/key/"
+    - name: twitter
+      url: "https://twitter.com/JoelSleeba"
+    - name: github
+      url: "https://github.com/joelsleeba"
+    - name: instagram
+      url: "https://instagram.com/joelsleeba"
+    # - name: spotify
+    #   url: "https://open.spotify.com/user/tj3aoh2ul6zcp34iv1znb84nq"
+
+  analytics:
+    google:
+      SiteVerificationTag: "oroSSXl-oJH_tNB3Y6tpBmzpKglDEeKODWdarSlpQrA"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+    goatcounter:
+      GoatcounterSiteCode: "joelsleeba"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/joelsleeba/joelsleeba.github.io/tree/master/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: search
+      name: 
+      url: search
+      weight: 10
+    - identifier: posts
+      name: Posts
+      url: posts
+      weight: 20
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags/
+    #   weight: 20
+    - identifier: playlists
+      name: Playlists
+      url: playlists
+      weight: 40
+    - identifier: gallery
+      name: Gallery
+      url: gallery
+      weight: 50
+    - identifier: resources
+      name: Resources
+      url: resources
+      weight: 60
+    - identifier: cssart
+      name: CSSart
+      url: https://joelsleeba.github.io/CSSart
+      weight: 70
+    # - identifier: about
+    #   name: About
+    #   url: https://joelsleeba.github.io
+    #   weight: 70
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+# privacy:
+#   disqus:
+#     disable: false
+#   googleAnalytics:
+#     anonymizeIP: true
+#     disable: false
+#     respectDoNotTrack: false
+#     useSessionStorage: false
+#   instagram:
+#     disable: false
+#     simple: false
+#   twitter:
+#     disable: false
+#     enableDNT: false
+#     simple: false
+#   vimeo:
+#     disable: false
+#     enableDNT: false
+#     simple: false
+#   youtube:
+#     disable: false
+#     privacyEnhanced: false

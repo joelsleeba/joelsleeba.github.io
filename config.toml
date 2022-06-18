@@ -1,5 +1,0 @@
-baseURL = 'https://joelsleeba.github.io/mathblog/'
-languageCode = 'en-us'
-title = "Sleeba's Math Blog"
-theme = 'cactus'
-publishdir = '../mathblog'

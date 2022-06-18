@@ -1,0 +1,95 @@
+@font-face {
+  font-family: Calluna-Sans;
+  src: url("/fonts/CallunaSans-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Calluna;
+  src: url("/fonts/Calluna-Regular.otf") format("opentype");
+}
+
+:root {
+  --gap: 24px;
+  --content-gap: 20px;
+  --nav-width: 1024px;
+  --main-width: 720px;
+  --header-height: 60px;
+  --footer-height: 60px;
+  --border-radius: 2px;
+  --radius: 8px;
+  --theme: #fffef8;
+  /* --theme: rgb(255, 255, 255); */
+  --entry: rgb(255, 255, 255);
+  --primary: rgb(30, 30, 30);
+  --secondary: rgb(108, 108, 108);
+  --tertiary: rgb(214, 214, 214);
+  --gray: rgb(165, 165, 165);
+  --content: rgb(30, 30, 30);
+  --hljs-bg: rgb(28, 29, 33);
+  --code-bg: rgb(245, 245, 245);
+  --border: rgb(238, 238, 238);
+  --darkpurple: #c03050;
+  --midpurple: #c0b5e5;
+  --accent-col: var(--darkpurple);
+  --hover-link: var(--darkpurple);
+  --link-col: var(--darkpurple);
+  --link-text-col: var(--midpurple);
+  --lightpurple: #e5e1f4;
+  --semibold: 500;
+
+  /* liftkit vars */
+  --display1size: 4.235em;
+  --display2size: 2.618em;
+  --titleasize: 2.058em;
+  --titlebsize: 1.618em;
+  --titlecsize: 1.272em;
+  --headingsize: 1.129em;
+  --subheading: 0.885em;
+  --bodysize: 1em;
+  --calloutsize: 0.934em;
+  --labelsize: 0.835em;
+  --captionsize: 0.786em;
+  --overlinesize: 0.786em;
+
+  --homesize: 19px;
+  --titlesize: 56px;
+  --h1size: 36px;
+  --h2size: 30px;
+  --h3size: 24px;
+  --textsize: 18px;
+  --entrysize: 18px;
+  --headersize: 20px;
+  --headerlogosize: 30px;
+  --headermenusize: 18px;
+  --footersize: 14px;
+  --descrsize: 14px;
+  --lineheight: 1.45;
+  --lineclamp: 8;
+  --marginleft: 26px;
+  --firstTitleTopMargin: 18vh;
+  --link-hover-transition: 0.8s cubic-bezier(0.19, 1, 0.22, 1); /*exponential ease-out*/
+  --head-font: Calluna;
+  --sub-font: Calluna-Sans;
+}
+
+/* .list { */
+/*     background: var(--code-bg); */
+/* } */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --theme: #08141f;
+    --content: #acc8e5;
+    --entry: #091626;
+    --primary: #dadada;
+    --secondary: rgb(155, 156, 157);
+    --tertiary: rgb(65, 66, 68);
+    --hljs-bg: rgb(46, 46, 51);
+    --code-bg: rgb(55, 56, 62);
+    --border: #102030;
+    --darkpurple: rgb(244, 146, 83);
+  }
+  .list {
+    background: var(--theme);
+  }
+}

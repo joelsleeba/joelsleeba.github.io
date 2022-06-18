@@ -1,0 +1,87 @@
+<script src="https://giscus.app/client.js"
+        data-repo="joelsleeba/joelsleeba.github.io"
+        data-repo-id="R_kgDOHhXuYA"
+        data-category="General"
+        data-category-id="DIC_kwDOHhXuYM4Caa4i"
+        data-mapping="og:title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="bottom"
+        data-theme="https://joelsleeba.github.io/giscus/auto-dark.css"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
+<!-- {{- /* Essential function which takes care of theme switch with giscus */}} -->
+<!-- <script> -->
+<!-- function changeGiscusTheme (colscheme) { -->
+<!--   const theme = colscheme === 'dark' ? 'https://joelsleeba.github.io/giscus/noborder_dark.css' : 'https://joelsleeba.github.io/giscus/noborder_light.css' -->
+<!--   function sendMessage(message) { -->
+<!--     const iframe = document.querySelector('iframe.giscus-frame'); -->
+<!--     if (!iframe) return; -->
+<!--     iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app'); -->
+<!--   } -->
+<!--   sendMessage({ -->
+<!--     setConfig: { -->
+<!--       theme: theme -->
+<!--     } -->
+<!--   }); -->
+<!-- } -->
+<!---->
+<!-- const mql = window.matchMedia("(prefers-color-scheme: dark)"); -->
+<!-- mql.addEventListener("change", () => { -->
+<!--     if (window.matchMedia('(prefers-color-scheme: dark)').matches) { -->
+<!--         changeGiscusTheme('dark'); -->
+<!--     } else if (window.matchMedia('(prefers-color-scheme: light)').matches) { -->
+<!--         changeGiscusTheme('light'); -->
+<!--     } -->
+<!-- }); -->
+<!-- </script> -->
+<!---->
+<!---->
+<!-- {{- /* theme-toggle is enabled */}} -->
+<!-- {{- if (not site.Params.disableThemeToggle) }} -->
+<!-- {{- /* theme is light */}} -->
+<!-- {{- if (eq site.Params.defaultTheme "light") }} -->
+<!-- <script> -->
+<!--     if (localStorage.getItem("pref-theme") === "dark") { -->
+<!--         changeGiscusTheme('dark'); -->
+<!--     } -->
+<!---->
+<!-- </script> -->
+<!-- {{- /* theme is dark */}} -->
+<!-- {{- else if (eq site.Params.defaultTheme "dark") }} -->
+<!-- <script> -->
+<!--     if (localStorage.getItem("pref-theme") === "light") { -->
+<!--         changeGiscusTheme('light'); -->
+<!--     } -->
+<!---->
+<!-- </script> -->
+<!-- {{- else }} -->
+<!-- {{- /* theme is auto */}} -->
+<!-- <script> -->
+<!--     if (localStorage.getItem("pref-theme") === "dark") { -->
+<!--         changeGiscusTheme('dark'); -->
+<!--     } else if (localStorage.getItem("pref-theme") === "light") { -->
+<!--         changeGiscusTheme('light'); -->
+<!--     } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) { -->
+<!--         changeGiscusTheme('dark'); -->
+<!--     } else if (window.matchMedia('(prefers-color-scheme: light)').matches) { -->
+<!--         changeGiscusTheme('light'); -->
+<!--     } -->
+<!-- </script> -->
+<!-- {{- end }} -->
+<!-- {{- /* theme-toggle is disabled and theme is auto */}} -->
+<!-- {{- else if (and (ne site.Params.defaultTheme "light") (ne site.Params.defaultTheme "dark"))}} -->
+<!-- <script> -->
+<!--     if (window.matchMedia('(prefers-color-scheme: dark)').matches) { -->
+<!--         document.querySelector("[data-theme]").setAttribute('data-theme', "https://joelsleeba.github.io/giscus/noborder_dark.css") -->
+<!--     } -->
+<!--     else if (window.matchMedia('(prefers-color-scheme: light)').matches) { -->
+<!--         document.querySelector("[data-theme]").setAttribute('data-theme', "https://joelsleeba.github.io/giscus/noborder_light.css") -->
+<!--     } -->
+<!-- </script> -->
+<!-- {{- end }} -->

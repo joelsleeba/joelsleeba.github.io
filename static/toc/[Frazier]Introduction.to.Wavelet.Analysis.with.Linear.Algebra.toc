@@ -1,0 +1,74 @@
+"Preface" 6
+"Acknowledgments" 12
+"Contents" 16
+"Prologue: Compression of" 18
+"the FBI Fingerprint Files" 18
+"1. Background: Complex Numbers and Linear Algebra" 24
+    "1.1 Real Numbers and Complex Numbers" 24
+        "Exercises" 32
+    "1.2 Complex Series, Euler’s Formula, and the Roots of Unity" 33
+        "Exercises" 43
+    "1.3 Vector Spaces and Bases" 46
+        "Exercises" 54
+    "1.4 Linear Transformations, Matrices, and Change of Basis" 57
+        "Exercises" 69
+    "1.5 Diagonalization of Linear Transformations and Matrices" 73
+        "Exercises" 93
+    "1.6 Inner Products, Orthonormal Bases, and Unitary Matrices" 96
+        "Exercises" 111
+"2. The Discrete Fourier Transform" 118
+    "2.1 Definition and Basic Properties of the Discrete Fourier Transform" 118
+        "Exercises" 139
+    "2.2 Translation-Invariant Linear Transformations" 145
+        "Exercises" 161
+    "2.3 The Fast Fourier Transform" 168
+        "Exercises" 179
+"3. Wavelets on Z N" 182
+    "3.1 Construction of Wavelets on Z N : The First Stage" 182
+        "Exercises" 204
+    "3.2 Construction of Wavelets on Z N : The Iteration Step" 213
+        "Exercises" 235
+    "3.3 Examples and Applications" 242
+        "Exercises" 278
+"4. Wavelets on Z" 282
+    "4.1 ℓ 2 ( Z )" 282
+        "Exercises" 285
+    "4.2 Complete Orthonormal Sets in Hilbert Spaces" 288
+        "Exercises" 294
+    "4.3 L 2 ([ − π, π )) and Fourier Series" 296
+        "Exercises" 309
+    "4.4 The Fourier Transform and Convolution on ℓ 2 ( Z )" 315
+        "Exercises" 324
+    "4.5 First-Stage Wavelets on Z" 326
+        "Exercises" 334
+    "4.6 The Iteration Step for Wavelets on Z" 338
+        "Exercises" 345
+    "4.7 Implementation and Examples" 347
+        "Exercises" 363
+"5. Wavelets on R" 366
+    "5.1 L 2 ( R ) and Approximate Identities" 366
+        "Exercises" 376
+    "5.2 The Fourier Transform on R" 379
+        "Exercises" 393
+    "5.3 Multiresolution Analysis and Wavelets" 397
+        "Exercises" 411
+    "5.4 Construction of Multiresolution Analyses" 415
+        "Exercises" 439
+    "5.5 Wavelets with Compact Support and Their Computation" 446
+        "Exercises" 464
+"6. Wavelets and Differential Equations" 468
+    "6.1 The Condition Number of a Matrix" 468
+        "Exercises" 473
+    "6.2 Finite Difference Methods for Differential Equations" 476
+        "Exercises" 482
+    "6.3 Wavelet-Galerkin Methods for Differential Equations" 487
+        "Exercises" 498
+"Bibliography" 501
+"Index" 508
+"Solutions Manual" 521
+    "Problem Set 1 Solutions" 523
+    "Problem Set 2 Solutions" 533
+    "Problem Set 3 Solutions" 545
+    "Problem Set 4 Solutions" 557
+    "Problem Set 5 Solutions" 567
+    "Problem Set 6 Solutions" 577
