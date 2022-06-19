@@ -1,7 +1,7 @@
 ---
 title: "Astrophotography and Image Stacking"
 date: 2022-06-19T10:13:27+05:30
-draft: false
+draft: true
 tags: [Photography, Stargazing, Astronomy] 
 ---
 

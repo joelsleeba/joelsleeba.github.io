@@ -2,7 +2,7 @@
 title: "Night Sky; Beauty, Wonder & Peace"
 date: 2022-03-08T21:30:29+05:30
 draft: false
-tags: [aesthetics]
+tags: [Aesthetics]
 ---
 
 What is the serenity that falls with the night? What is the wonder that catches our eye with every twinkle of a star? What is the beauty that draws us again into that good night?

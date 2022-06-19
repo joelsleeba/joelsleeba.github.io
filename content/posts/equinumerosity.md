@@ -2,18 +2,18 @@
 title: "Equinumerosity in Functional Spaces"
 date: 2021-07-21T11:33:52+05:30
 draft: false
-tags: ["Set Theory", "Cardinality"]
+tags: ["Set Theory"]
 ---
 **Question**: If $A_1 =_c A_2$ and $B_1 =_c B_2$ prove that $(A_1 \to B_1 ) =_c (A_2 \to B_2 )$. 
 Or in other words If the cardinality of $A_1$ and $B_1$  are equal to that of $A_2$ and $B_2$ respectively, then the cardinality of the set of functions from $A_1 \to B_1$ is equal to that of the set of functions from $A_2 \to B_2$
 (from Notes on Set Theory, Yiannis Moschovakis, Chapter 2, Exercise 2.33)
 
-_test cirle_
+<!-- _test cirle_
 {{< tikz >}}
   \begin{tikzpicture}
     \draw (0,0) circle (1in);
   \end{tikzpicture}
-{{< /tikz >}}
+{{< /tikz >}} -->
 
 **Proof:** Let $\sigma : A_1 \to A_2$ and $\phi : B_1 \to B_2$ be two bijections.
 And $f: A_1 \to B_1$ be any map. Define $g = \phi \cdot f \cdot \sigma^{-1}$. We claim that this map $T:(f \to g)$ is a bijection.
