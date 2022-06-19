@@ -30,7 +30,7 @@ weight = 4
 
 [[menu.main]]
 name = "About"
-url = "/about"
+url = "https://joelsleeba.github.io"
 weight = 5
 
 
