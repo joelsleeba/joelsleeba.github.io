@@ -7,3 +7,9 @@
 [submodule "themes/hugo-book"]
 	path = themes/hugo-book
 	url = https://github.com/alex-shpak/hugo-book
+[submodule "themes/hugo-shortcode-gallery"]
+	path = themes/hugo-shortcode-gallery
+	url = https://github.com/mfg92/hugo-shortcode-gallery.git
+[submodule "themes/easy-gallery"]
+	path = themes/easy-gallery
+	url = https://github.com/liwenyip/hugo-easy-gallery.git
