@@ -2,10 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://joelsleeba.github.io/mathblog/categories/</loc>
+    <loc>https://joelsleeba.github.io/blog/gallery/</loc>
+    <lastmod>2022-06-19T15:21:58+05:30</lastmod>
   </url><url>
-    <loc>https://joelsleeba.github.io/mathblog/</loc>
+    <loc>https://joelsleeba.github.io/blog/about/</loc>
+    <lastmod>2022-06-18T17:55:41+05:30</lastmod>
   </url><url>
-    <loc>https://joelsleeba.github.io/mathblog/tags/</loc>
+    <loc>https://joelsleeba.github.io/blog/tags/aesthetics/</loc>
+    <lastmod>2022-03-08T21:30:29+05:30</lastmod>
+  </url><url>
+    <loc>https://joelsleeba.github.io/blog/posts/night-sky/</loc>
+    <lastmod>2022-03-08T21:30:29+05:30</lastmod>
+  </url><url>
+    <loc>https://joelsleeba.github.io/blog/posts/</loc>
+    <lastmod>2022-03-08T21:30:29+05:30</lastmod>
+  </url><url>
+    <loc>https://joelsleeba.github.io/blog/</loc>
+    <lastmod>2022-03-08T21:30:29+05:30</lastmod>
+  </url><url>
+    <loc>https://joelsleeba.github.io/blog/tags/</loc>
+    <lastmod>2022-03-08T21:30:29+05:30</lastmod>
+  </url><url>
+    <loc>https://joelsleeba.github.io/blog/posts/equinumerosity/</loc>
+    <lastmod>2021-07-21T11:33:52+05:30</lastmod>
+  </url><url>
+    <loc>https://joelsleeba.github.io/blog/tags/set-theory/</loc>
+    <lastmod>2021-07-21T11:33:52+05:30</lastmod>
+  </url><url>
+    <loc>https://joelsleeba.github.io/blog/categories/</loc>
   </url>
 </urlset>
