@@ -2,7 +2,7 @@ baseURL = 'https://joelsleeba.github.io/blog/'
 languageCode = 'en-us'
 title = "Sleeba's Shell Scripts"
 theme = ["cactus", "hugo-shortcode-gallery"]
-publishdir = '../blog'
+publishdir = 'public'
 copyright = "Joel Sleeba"
 
 # summaryLength = 2
