@@ -1,4 +1,4 @@
-baseURL = 'https://joelsleeba.github.io/blog/'
+baseURL = 'https://joelsleeba.github.io/blog'
 languageCode = 'en-us'
 title = "Sleeba's Shell Scripts"
 theme = ["cactus", "hugo-shortcode-gallery"]
@@ -47,7 +47,7 @@ weight = 5
     lineNos = true
     lineNumbersInTable = false
     noClasses = true
-    style = "dracula"
+    style = "pygments"
     tabWidth = 4
     
 [params]
