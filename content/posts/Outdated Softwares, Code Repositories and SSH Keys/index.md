@@ -47,7 +47,7 @@ By the end of the day I was tired after all the failed attempts and the realizat
 ## USB Stick and LUKS
 It took me 2, 3 days to try something new. I had lost my heart on the project. I was pulling Ashish's code repo to my USB stick and editing it connecting to the lab computer. I couldn't put my SSH keys in the USB stick, it would've been an easy meal for anyone who gets hands on it. The idea of having a lot of unpushed commits and the need to connect my USB stick into the public USB ports with no safety was itching the back of my head.
 
-So I decided to put a condom on it. [LUKS](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup "A Linux disk encription software") encryption was my buddy. Without wasting a moment I started formatting my USB stick with LUKS encryption. But the Ubuntu System in the computer lab couldn't format the USB stick. It needed [_cryptsetup_](https://Linux.die.net/man/8/cryptsetup "Linux programme which takes care of LUKS encryption") to be installed along with [_sudo_](https://en.wikipedia.org/wiki/Sudo "The wet dream of every Linux haxxer") privilege. Which I didn't have.
+So I decided to secure it. [LUKS](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup "A Linux disk encription software") encryption was my buddy. Without wasting a moment I started formatting my USB stick with LUKS encryption. But the Ubuntu System in the computer lab couldn't format the USB stick. It needed [_cryptsetup_](https://Linux.die.net/man/8/cryptsetup "Linux programme which takes care of LUKS encryption") to be installed along with [_sudo_](https://en.wikipedia.org/wiki/Sudo "The wet dream of every Linux haxxer") privilege. Which I didn't have.
 
 
 ## An idea of disposable SSH keys
