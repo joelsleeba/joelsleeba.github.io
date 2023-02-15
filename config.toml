@@ -51,7 +51,7 @@ weight = 5
     tabWidth = 4
     
 [params]
-    description = "I'm Joel Sleeba. Sometimes I like Math. Give me a programming challenge and I can easily spend hours trying to solve it. I find aesthetic things attractive, and I find many stuff aesthetic"
+    description = "I'm Joel Sleeba. I am a 2nd year graduate student at [IISER Thiruvananthapuram](https://iisertvm.ac.in). I am interested in Fourier analysis and related areas and currently doing my major project under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Apart from math, I'm interested in computer programming, linux, photography and movies. You can find some of my projects in my GitHub repositories"
     colortheme = "white"
     mainSectionTitle = "Blog"
     showAllPostsOnHomePage = false
