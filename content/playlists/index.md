@@ -5,7 +5,7 @@ draft: False
 ---
 
 # My Playlists
-
+{{<spotify type="playlist" id="6saUpn8tyLyDBNHYYQIJgt">}}
 {{<spotify type="playlist" id="5i1WQghgGmXoxleoyrgzMp">}}
 {{<spotify type="playlist" id="2mIrBDptLGs48OsnT2FA1g">}}
 {{<spotify type="playlist" id="34pFQl42CypBRjDoBnbKGe">}}
