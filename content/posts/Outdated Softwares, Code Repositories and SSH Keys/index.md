@@ -6,7 +6,7 @@ tags: [Linux, Git, Security]
 ---
 
 ## A pinch of envy
-One day I saw my friend [Ashish Kujur](https://github.com/ashishKujur7) working with $\LaTeX$ to make notes of the lectures we had. It looked cool. I wanted to learn $\LaTeX$ and make notes like that for a long time. This seemed like a perfect opportunity to learn something new. Also, I want to score 9+ GPA this semester. Making proper notes seemed a good way to my goal. I forked his repo. The plan was to pull from his repo, make my edits, add my observations and later push to my repo. That definitely required a computer.
+One day I saw my friend [Ashish Kujur](https://github.com/ashishKujur7) working with $\LaTeX$ to make notes of the lectures we had. It looked cool. I wanted to learn $\LaTeX$ and make notes like that for a long time. Making proper notes seemed a good way to my goal. I forked his repo. The plan was to pull from his repo, make my edits, add my observations and later push to my repo. That definitely required a computer.
 
 But what is the best thing to do when you are too lazy to carry around your laptop and want to work on public computers without compromising your security? I wanted a good and secure workflow which I could easily setup in any of the Linux machines in the campus.
 
