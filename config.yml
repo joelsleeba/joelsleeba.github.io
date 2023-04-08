@@ -1,5 +1,5 @@
 baseURL: "https://joelsleeba.github.io/blog"
-title: ExampleSite
+title: Sleeba's Shell Scripts
 paginate: 5
 theme: [PaperMod, hugo-shortcode-gallery]
 
@@ -41,6 +41,7 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  math: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
