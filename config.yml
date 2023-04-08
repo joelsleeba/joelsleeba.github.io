@@ -14,16 +14,24 @@ minify:
   disableXML: true
   minifyOutput: true
 
+# For Search Functionality
+# https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/#search-page
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
+  title: Sleeba's Shell Scripts
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: Joel Sleeba
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: light # auto, dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -60,7 +68,7 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
+    title: Joel Sleeba
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -75,15 +83,15 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: "I'm Joel Sleeba. I am a 2nd year graduate student at [IISER Thiruvananthapuram](https://iisertvm.ac.in). I am interested in Fourier analysis and am currently doing my major project under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Apart from math, I'm interested in computer programming, Linux, photography and movies. You can find some of my projects in my GitHub repositories"
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://twitter.com/JoelSleeba"
+    # - name: spotify
+    #   url: "https://open.spotify.com/user/tj3aoh2ul6zcp34iv1znb84nq"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/joelsleeba"
 
   analytics:
     google:
@@ -99,7 +107,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/joelsleeba/blog/tree/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -115,18 +123,26 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: search
+      name: Search
+      url: search
       weight: 10
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+    - identifier: playlists
+      name: Playlists
+      url: playlists
+      weight: 40
+    - identifier: gallery
+      name: Gallery
+      url: gallery
+      weight: 50
+    - identifier: about
+      name: About
+      url: https://joelsleeba.github.io
+      weight: 60
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

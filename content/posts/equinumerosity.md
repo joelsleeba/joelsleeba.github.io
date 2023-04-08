@@ -2,9 +2,10 @@
 title: "Equinumerosity"
 date: 2021-07-21T11:33:52+05:30
 draft: false
+math: true
 tags: ["Set Theory"]
 ---
->*This is me testing $LaTeX$ for my blog. Don't judge me for this. :)*
+>*This is me testing $\LaTeX$ for my blog. Don't judge me for this. :)*
 
 **Question**: If $A_1 =_c A_2$ and $B_1 =_c B_2$ prove that $(A_1 \to B_1 ) =_c (A_2 \to B_2 )$. 
 Or in other words If the cardinality of $A_1$ and $B_1$  are equal to that of $A_2$ and $B_2$ respectively, then the cardinality of the set of functions from $A_1 \to B_1$ is equal to that of the set of functions from $A_2 \to B_2$

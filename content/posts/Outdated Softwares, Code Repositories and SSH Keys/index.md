@@ -2,6 +2,7 @@
 title: "Outdated Softwares, Code Repositories, and SSH Keys"
 date: 2022-08-21T02:03:54
 draft: false
+math: true
 tags: [Linux, Git, Security]
 ---
 
