@@ -1,5 +1,5 @@
 baseURL: "https://joelsleeba.github.io/blog"
-title: Sleeba's Shell Scripts
+title: Sleeba's Scripts
 paginate: 5
 theme: [PaperMod, hugo-shortcode-gallery]
 
@@ -24,8 +24,8 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Sleeba's Shell Scripts
-  description: "ExampleSite description"
+  title: Sleeba's Scripts
+  description: "This is my blog where I write and upload pictures from my gallery."
   keywords: [Blog, Portfolio, PaperMod]
   author: Joel Sleeba
   # author: ["Me", "You"] # multiple authors
@@ -44,7 +44,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -54,15 +54,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "favicon/favicon.ico"
+    favicon16x16: "favicon/favicon-16x16.png"
+    favicon32x32: "favicon/favicon-32x32.png"
+    apple_touch_icon: "favicon/apple-touch-icon.png"
+    safari_pinned_tab: "favicon/safari-pinned-tab.png"
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
+    icon: #favicon/apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
@@ -139,10 +139,14 @@ menu:
       name: Gallery
       url: gallery
       weight: 50
+    - identifier: cssart
+      name: CssArt
+      url: https://joelsleeba.github.io/CSSart
+      weight: 60
     - identifier: about
       name: About
       url: https://joelsleeba.github.io
-      weight: 60
+      weight: 70
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
