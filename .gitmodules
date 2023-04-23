@@ -1,6 +1,0 @@
-[submodule "themes/hugo-shortcode-gallery"]
-	path = themes/hugo-shortcode-gallery
-	url = https://github.com/joelsleeba/hugo-shortcode-gallery.git
-[submodule "themes/PaperMod"]
-	path = themes/PaperMod
-	url = https://github.com/adityatelange/hugo-PaperMod.git
