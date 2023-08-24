@@ -21,13 +21,13 @@ Or in other words If the cardinality of $A_1$ and $B_1$  are equal to that of $A
 **Proof:** Let $\sigma : A_1 \to A_2$ and $\phi : B_1 \to B_2$ be two bijections.
 And $f: A_1 \to B_1$ be any map. Define $g = \phi \cdot f \cdot \sigma^{-1}$. We claim that this map $T:(f \to g)$ is a bijection.
 
-### Is $T$ well defined?
+## Is $T$ well defined?
 Verify that $T(f):=\phi \cdot f \cdot \sigma^{-1}$ is indeed a map from $(A_2 \to B_2)$
 
-### Is $T$ onto?
+## Is $T$ onto?
 Let $g_0$ be any arbitary map from $(A_2 \to B_2)$. Then $T(\phi^{-1} \cdot g_0 \cdot \sigma) = \phi \cdot \phi^{-1} \cdot g_0 \cdot \sigma \cdot \sigma^{-1} = g_0$
 
-### Is $T$ one-one?
+## Is $T$ one-one?
 Let $T(f_1) = T(f_2)$
 
 $

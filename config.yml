@@ -34,17 +34,17 @@ params:
   defaultTheme: light # auto, dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
-  ShowShareButtons: true
+  ShowReadingTime: false
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: true
+  comments: flase
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -61,24 +61,28 @@ params:
     safari_pinned_tab: "favicon/safari-pinned-tab.png"
 
   label:
-    text: "Home"
+    text: "Joel Sleeba"
     icon: #favicon/apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: Joel Sleeba
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
+    subtitle: "I am a 2nd year graduate student at [IISER Thiruvananthapuram](https://iisertvm.ac.in). I am interested in Fourier analysis and am currently doing my major project under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Apart from math, I'm interested in computer programming, Linux, photography and movies. You can find some of my projects in my GitHub repositories"
+    imageUrl: "profile.png"
+    imageWidth: 160
+    imageHeight: 160
     imageTitle: my image
     buttons:
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
+      - name: Gallery
+        url: gallery
+      - name: Playlists
+        url: playlists
+      - name: CssArt
+        url: https://joelsleeba.github.io/CSSart
 
   # home-info mode
   homeInfoParams:
@@ -124,7 +128,7 @@ params:
 menu:
   main:
     - identifier: search
-      name: Search
+      name: 
       url: search
       weight: 10
     - identifier: tags
@@ -143,10 +147,10 @@ menu:
       name: CssArt
       url: https://joelsleeba.github.io/CSSart
       weight: 60
-    - identifier: about
-      name: About
-      url: https://joelsleeba.github.io
-      weight: 70
+    # - identifier: about
+    #   name: About
+    #   url: https://joelsleeba.github.io
+    #   weight: 70
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
