@@ -1,6 +1,6 @@
 baseURL: "https://joelsleeba.github.io/blog"
 title: Sleeba's Scripts
-paginate: 5
+paginate: 10
 theme: [PaperMod, hugo-shortcode-gallery]
 
 enableRobotsTXT: true
@@ -37,14 +37,14 @@ params:
   ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: false
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: flase
+  comments: false
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -147,10 +147,10 @@ menu:
       name: CssArt
       url: https://joelsleeba.github.io/CSSart
       weight: 60
-    # - identifier: about
-    #   name: About
-    #   url: https://joelsleeba.github.io
-    #   weight: 70
+    - identifier: about
+      name: About
+      url: https://joelsleeba.github.io
+      weight: 70
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
