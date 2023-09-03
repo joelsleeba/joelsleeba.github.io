@@ -39,7 +39,7 @@
     padding: var(--gap);
     background: var(--entry);
     border-radius: var(--radius);
-    transition: transform 1s ease-in;
+    transition: var(--link-hover-transition);
     border: 2px solid var(--border);
 }
 

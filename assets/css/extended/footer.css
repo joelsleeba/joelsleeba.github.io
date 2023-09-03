@@ -24,6 +24,8 @@
 .footer a {
     color: var(--secondary);
     border-bottom: 2px solid var(--link-col);
+    border-radius: var(--border-radius);
+    transition: var(--link-hover-transition);
 }
 
 .footer a:hover {

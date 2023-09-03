@@ -65,8 +65,14 @@ body:not(.dark) #sun {
     font-size: 16px;
 }
 
+#menu span{
+  border-radius: var(--border-radius);
+  border-bottom: 2px solid transparent;
+  transition: var(--link-hover-transition);
+}
+
 #menu span:hover {
-    border-bottom: 2px solid var(--accent-col);
+    border-bottom: 2px solid var(--hover-link);
 }
 
 #menu .active {

@@ -69,7 +69,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Joel Sleeba
-    subtitle: "I am a 2nd year graduate student at [IISER Thiruvananthapuram](https://iisertvm.ac.in). I am interested in Fourier analysis and am currently doing my major project under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Apart from math, I'm interested in computer programming, Linux, photography and movies. You can find some of my projects in my GitHub repositories"
+    subtitle: "I am a math graduate from [IISER Thiruvananthapuram](https://iisertvm.ac.in). As part of my master's thesis, I worked on Fourier analysis under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Currently, I am reading on C* algebras and operator theory with [Dr. P Shankar](https://iqac.cusat.ac.in/Web/profile_view/433/Dr.SHANKARP). I am learning to use [Lean theorem prover](https://leanprover-community.github.io/index.html). Besides math, I am interested in computer programming, Linux, photography and movies. You can find some of my projects in my GitHub repositories."
     imageUrl: "profile.png"
     imageWidth: 160
     imageHeight: 160
@@ -87,7 +87,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: "I'm Joel Sleeba. I am a 2nd year graduate student at [IISER Thiruvananthapuram](https://iisertvm.ac.in). I am interested in Fourier analysis and am currently doing my major project under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Apart from math, I'm interested in computer programming, Linux, photography and movies. You can find some of my projects in my GitHub repositories"
+    Content: "I am a math graduate from [IISER Thiruvananthapuram](https://iisertvm.ac.in). As part of my master's thesis, I worked on Fourier analysis under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Currently, I am reading on C* algebras and operator theory with [Dr. P Shankar](https://iqac.cusat.ac.in/Web/profile_view/433/Dr.SHANKARP). Besides math, I am interested in computer programming, Linux, photography and movies. You can find some of my projects in my GitHub repositories."
 
   socialIcons:
     - name: twitter

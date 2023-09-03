@@ -24,6 +24,31 @@
 .profile img {
     display: inline-table;
     border-radius: 50%;
+    filter: grayscale(100%);
+    transition: 0.8s cubic-bezier(.39,.58,.57,1);
+}
+
+.profile img:hover{
+  filter: none;
+}
+
+.profile_inner a{
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  border-bottom: 2px solid var(--link-col);
+  transition: var(--link-hover-transition);
+}
+
+.profile_inner a:hover{
+  border-bottom: 2px solid var(--hover-link);
+}
+
+.social-icons{
+  padding: 16px 0px 4px 0px;
+}
+
+.social-icons a{
+  border: none !important;
 }
 
 .buttons {
@@ -43,10 +68,10 @@
 .button-inner {
     padding: 0 0px;
     border-radius: 2px;
-    border-bottom: 2px solid var(--link-col);
-    transition: transform 5s ease-in;
+    /* border-bottom: 2px solid var(--link-col); */
+    /* transition: 0.5s ease-out; */
 }
 
-.button-inner:hover {
-    border-bottom: 2px solid var(--hover-link);
-}
+/* .button-inner:hover { */
+/*     border-bottom: 2px solid var(--hover-link); */
+/* } */

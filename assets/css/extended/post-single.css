@@ -79,15 +79,17 @@
 .post-content a,
 .post-meta a,
 .toc a {
-    box-shadow: 0 2px 0 var(--link-col);
+    box-shadow: none;
+    border-bottom: 2px solid var(--link-col);
+    border-radius: var(--border-radius);
     color: currentColor;
-    transition: transform 1s ease-in;
+    transition: var(--link-hover-transition);
 }
 
 .post-content a:hover,
 .post-meta a:hover,
 .toc a:hover {
-    box-shadow: 0 2px 0 var(--hover-link);
+    border-bottom: 2px solid var(--hover-link);
     color: currentColor; 
 }
 }
@@ -372,6 +374,10 @@
 
 .share-buttons a:not(:last-of-type) {
     margin-inline-end: 12px;
+}
+
+.anchor{
+  border: none !important;
 }
 
 h1:hover .anchor,
