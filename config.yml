@@ -69,7 +69,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Joel Sleeba
-    subtitle: "I am a math graduate from [IISER Thiruvananthapuram](https://iisertvm.ac.in). As part of my Masters thesis, I worked on Fourier analysis under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Currently, I am reading on C* algebras and operator theory with [Dr. P Shankar](https://iqac.cusat.ac.in/Web/profile_view/433/Dr.SHANKARP). I am also learning to use [Lean theorem prover](https://leanprover-community.github.io/index.html) by working through '[Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/index.html)'. Besides math, I am interested in computer programming, Linux, photography and movies. You can find some of my projects in my GitHub repositories."
+    subtitle: "I am a math graduate from [IISER Thiruvananthapuram](https://iisertvm.ac.in). As part of my Master's thesis, I worked on Fourier analysis under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Currently, I am reading on C* algebras and operator theory with [Dr. P Shankar](https://iqac.cusat.ac.in/Web/profile_view/433/Dr.SHANKARP). I am also learning to use [Lean theorem prover](https://leanprover-community.github.io/index.html) by working through [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/index.html). Besides math, I am interested in computer programming, Linux, photography and movies. You can find some of my projects in my GitHub repositories."
     imageUrl: "profile.png"
     imageWidth: 160
     imageHeight: 160
@@ -87,7 +87,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: "I am a math graduate from [IISER Thiruvananthapuram](https://iisertvm.ac.in). As part of my Masters thesis, I worked on Fourier analysis under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Currently, I am reading on C* algebras and operator theory with [Dr. P Shankar](https://iqac.cusat.ac.in/Web/profile_view/433/Dr.SHANKARP). Besides math, I am interested in computer programming, Linux, photography and movies. You can find some of my projects in my GitHub repositories."
+    Content: "I am a math graduate from [IISER Thiruvananthapuram](https://iisertvm.ac.in). As part of my Master's thesis, I worked on Fourier analysis under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Currently, I am reading on C* algebras and operator theory with [Dr. P Shankar](https://iqac.cusat.ac.in/Web/profile_view/433/Dr.SHANKARP). Besides math, I am interested in computer programming, Linux, photography and movies. You can find some of my projects in my GitHub repositories."
 
   socialIcons:
     - name: CV
