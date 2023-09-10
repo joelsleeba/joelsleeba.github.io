@@ -1,4 +1,4 @@
-baseURL: "https://joelsleeba.github.io/blog"
+baseURL: "https://joelsleeba.github.io/"
 title: Sleeba's Scripts
 paginate: 10
 theme: [PaperMod, hugo-shortcode-gallery]
@@ -90,6 +90,10 @@ params:
     Content: "I am a math graduate from [IISER Thiruvananthapuram](https://iisertvm.ac.in). As part of my master's thesis, I worked on Fourier analysis under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Currently, I am reading on C* algebras and operator theory with [Dr. P Shankar](https://iqac.cusat.ac.in/Web/profile_view/433/Dr.SHANKARP). Besides math, I am interested in computer programming, Linux, photography and movies. You can find some of my projects in my GitHub repositories."
 
   socialIcons:
+    - name: CV
+      url: "https://github.com/joelsleeba/CV/raw/master/joel_sleeba.pdf"
+    - name: key
+      url: "https://joelsleeba.github.io/landing-page/key/"
     - name: twitter
       url: "https://twitter.com/JoelSleeba"
     # - name: spotify
