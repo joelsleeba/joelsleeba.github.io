@@ -72,6 +72,17 @@
     /* transition: 0.5s ease-out; */
 }
 
+.buttons a:last-child{
+  border-bottom: 2px solid mediumvioletred;
+  border-radius: var(--border-radius);
+  padding: 0 3px;
+  transform: var(--link-hover-transition);
+}
+
+.buttons a:last-child:hover{
+  border-bottom: 2px solid red;
+}
+
 /* .button-inner:hover { */
 /*     border-bottom: 2px solid var(--hover-link); */
 /* } */
