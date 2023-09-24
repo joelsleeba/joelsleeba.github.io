@@ -1,5 +1,5 @@
 baseURL: "https://joelsleeba.github.io/"
-title: Sleeba's Scripts
+title: Joel Sleeba
 paginate: 10
 theme: [PaperMod, hugo-shortcode-gallery]
 
