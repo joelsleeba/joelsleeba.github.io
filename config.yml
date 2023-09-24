@@ -24,12 +24,12 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Sleeba's Scripts
-  description: "This is my blog where I write and upload pictures from my gallery."
-  keywords: [Blog, Portfolio, PaperMod]
+  title: Joel Sleeba
+  description: "This is my website. I write stuff and upload pictures here."
+  keywords: [Joel Sleeba, Blog, Portfolio, PaperMod]
   author: Joel Sleeba
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["profile.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # auto, dark, light
   disableThemeToggle: false
