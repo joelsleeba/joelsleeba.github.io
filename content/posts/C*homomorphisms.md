@@ -1,28 +1,28 @@
 ---
-title: "A quick note on C* homomorphisms"
-date: 2023-09-24T16:48:19+05:30
-draft: true
+title: "States of a C* algebra"
+date: 2023-09-25T23:48:19+05:30
+draft: false
 
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["math"]
 author: "Joel Sleeba"
 # author: ["Me", "You"] # multiple authors
-showToc: true
+showToc: false
 TocOpen: false
 hidemeta: false
 comments: false
-description: "Desc Text."
+description: ""
 canonicalURL: "https://joelsleeba.github.io/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
 searchHidden: true
-ShowReadingTime: true
-ShowBreadCrumbs: true
+ShowReadingTime: false
+ShowBreadCrumbs: flase
 ShowPostNavLinks: true
-ShowWordCount: true
+ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
@@ -37,4 +37,18 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
+# Things to remember
+1. Every C* homomorphism is a bounded linear functional which preserve multiplication and involution.
+2. Every C* algebra is a Banach algebra, and therefore also a Banach space under the norm.
+3. Every * homomorphism from C* algebra to the set of complex numbers is a linear functional of this Banach space.
+4. Every * homomorphism between C* algebras are norm decreasing. _Theorem 2.1.7, Murphy_
+5. Hence every multiplicative * linear functional of this C* algebra is in the closed unit ball of the dual space of the Banach space.
+6. A hermitian linear functional are those multiplicative * linear functional which satisfy $f(a) = \overline{f(a^\*)}$ for all $a$ in the C* algebra.
+7. Positive linear functionals of a C* algebra are those multiplicative * linear functionals where the image of the positive elements of the C* algebra lie the non-negative real line. Clearly positive linear functionals are hermitian.
+8. Every multiplicative * linear functional of a C* algebra can be written as $f = g + ih$ where $g, h$ are hermitian linear functionals.
+9. Every hermitian linear functional can be written as the difference of two positive linear functionals. (Jordan decomposition, _Theorem 3.3.10_, Murphy)
+10. States are defined to be those positive linear functionals with norm 1.
+11. Convex combinations of states are again states.
+12. Pure states of a C* algebra are those states which cannot be written as a convex combination of any other state.
 
+So essentially every multiplicative * linear functional on a C* algebra can be written as a linear combination of pure states.
