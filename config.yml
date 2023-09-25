@@ -79,8 +79,8 @@ params:
         url: posts
       - name: Gallery
         url: gallery
-      - name: Playlists
-        url: playlists
+      - name: Resources
+        url: resources
       - name: CSSart
         url: https://joelsleeba.github.io/CSSart
 
@@ -117,7 +117,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/joelsleeba/blog/tree/master/content"
+    URL: "https://github.com/joelsleeba/joelsleeba.github.io/tree/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -149,10 +149,14 @@ menu:
       name: Gallery
       url: gallery
       weight: 50
+    - identifier: resources
+      name: Resources
+      url: resources
+      weight: 60
     - identifier: cssart
       name: CSSart
       url: https://joelsleeba.github.io/CSSart
-      weight: 60
+      weight: 70
     # - identifier: about
     #   name: About
     #   url: https://joelsleeba.github.io
