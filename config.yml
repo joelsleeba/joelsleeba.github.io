@@ -137,10 +137,14 @@ menu:
       name: 🔍
       url: search
       weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
+    - identifier: posts
+      name: Posts
+      url: posts
       weight: 20
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags/
+    #   weight: 20
     - identifier: playlists
       name: Playlists
       url: playlists

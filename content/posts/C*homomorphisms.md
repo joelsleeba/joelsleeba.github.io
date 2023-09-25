@@ -18,10 +18,10 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: false
-ShowBreadCrumbs: flase
-ShowPostNavLinks: true
+ShowBreadCrumbs: false
+ShowPostNavLinks: false
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
