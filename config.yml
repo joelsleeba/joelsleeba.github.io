@@ -134,7 +134,7 @@ params:
 menu:
   main:
     - identifier: search
-      name: 
+      name: 🔍
       url: search
       weight: 10
     - identifier: tags
