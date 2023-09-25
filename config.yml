@@ -171,3 +171,26 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+# privacy:
+#   disqus:
+#     disable: false
+#   googleAnalytics:
+#     anonymizeIP: true
+#     disable: false
+#     respectDoNotTrack: false
+#     useSessionStorage: false
+#   instagram:
+#     disable: false
+#     simple: false
+#   twitter:
+#     disable: false
+#     enableDNT: false
+#     simple: false
+#   vimeo:
+#     disable: false
+#     enableDNT: false
+#     simple: false
+#   youtube:
+#     disable: false
+#     privacyEnhanced: false
