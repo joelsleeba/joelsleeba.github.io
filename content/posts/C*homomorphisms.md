@@ -38,7 +38,7 @@ editPost:
 ---
 
 # Things to remember
-1. Every C* homomorphism is a bounded linear functional which preserve multiplication and involution.
+1. Every C* homomorphism is a bounded linear map which preserve multiplication and involution.
 2. Every C* algebra is a Banach algebra, and therefore also a Banach space under the norm.
 3. Every * homomorphism from C* algebra to the set of complex numbers is a linear functional of this Banach space.
 4. Every * homomorphism between C* algebras are norm decreasing. _Theorem 2.1.7, Murphy_
