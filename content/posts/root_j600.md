@@ -4,7 +4,7 @@ date: 2023-04-23T10:30:29+05:30
 draft: false
 tags: [Android,Rooting]
 ---
-_This is the steps I followed to root my old Samsung Galaxy J6 device. The procedure might vary slightly for other devices_
+_These are the steps I followed to root my old Samsung Galaxy J6 device. The procedure might vary slightly for other devices_
 # Requirements
 - Stock ROM of the current device OS
 - Android Development Bridge (ADB) installed in computer
@@ -28,3 +28,5 @@ _This is the steps I followed to root my old Samsung Galaxy J6 device. The proce
 9. When the device boots into bootloader, flash the boot image using heimdall `heimdall flash --BOOT Magisk-...img`
 10. The android device will auto reboot. If Samsung Knox triggers and ask to factory reset, proceed with it and reinstall Magisk app.
 11. Follow the instructions in the Magisk app.
+
+_Later I also managed to install Magisk in a 2017 J5 Pro following the Magisk wiki_
