@@ -21,18 +21,18 @@ hideSummary: false
 searchHidden: false
 ShowReadingTime: false
 ShowBreadCrumbs: false
-ShowPostNavLinks: false
+ShowPostNavLinks: true
 ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+#cover:
+#    image: "<image path/url>" # image path/url
+#    alt: "<alt text>" # alt text
+#    caption: "<text>" # display caption under cover
+#    relative: false # when using page bundles set this to true
+#    hidden: true # only hide on current single page
 editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/joelsleeba/joelsleeba.github.io/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---

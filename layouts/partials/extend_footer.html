@@ -1,4 +1,5 @@
 {{ if or .Params.math .Site.Params.math }}
 {{ partial "katex.html" . }}
+{{ if or .Params.tikzjax .Site.Params.tikzjax }}
+{{ partial "tikzjax.html" }}
 {{ end }}
-

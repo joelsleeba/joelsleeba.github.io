@@ -5,26 +5,30 @@ draft: true
 
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: [""]
 author: "Joel Sleeba"
 # author: ["Me", "You"] # multiple authors
-showToc: true
+showToc: false
 TocOpen: false
 hidemeta: false
 comments: false
-description: "Desc Text."
+description: ""
 canonicalURL: "https://joelsleeba.github.io/blog/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
 searchHidden: true
-ShowReadingTime: true
-ShowBreadCrumbs: true
+ShowReadingTime: false
+ShowBreadCrumbs: false
 ShowPostNavLinks: true
-ShowWordCount: true
+ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
+
+math: true
+tikzjax: false
+
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
