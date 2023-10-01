@@ -44,5 +44,7 @@ It is easily verified that the trace of a matrix has the property $\operatorname
 Assume $f$ is a linear functional on $M_n(\mathbb{C})$ such that $f(AB) = f(BA)$. Consider $E_{ij} \in M_n(\mathbb{C})$, the matrix with $e_{ij} =1$ and all the rest of elements $0$. It can be shown that $E_{ii} E_{ij} = E_{ij}$ and $E_{ij}E_{ii} = 0$, the latter when $i \neq j$. Hence $f(E_{ij}) = f(E_{ii}E_{ij}) = f(E_{ij}E_{ii}) = f(0) = 0$ whenever $i \neq j$.
 
 Now if $A = (a_{ij}) \in M_n(\mathbb{C})$, $$A = \sum_{i, j = 1}^n a_{ij}E_{ij}$$
-Hence $f(A) = \sum_{i=1}^n a_{ii}f(E_{ii}) = \lambda \operatorname{tr}(A)$, where $\lambda$ being the appropriate constant. 
 
+Also $E_{ii}$ and $E_{jj}$ are unitarily equivalent. Take the change of basis matrix which sends $e_i \leftrightarrow e_j$. Then $f(E_{ii})=f(U^{-1}E_{jj}U)=f(U^{-1}UE_{jj}) = f(E_{jj})$
+
+Hence $f(A) = \sum_{i=1}^n a_{ii}f(E_{ii}) = \lambda \operatorname{tr}(A)$, where $\lambda$ being the appropriate constant.
