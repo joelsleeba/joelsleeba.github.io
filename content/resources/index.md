@@ -40,12 +40,12 @@ editPost:
 # Operator Algebras
 
 ### Books
- - [C* Algebras and Operator Theory](https://g.co/kgs/jo2MVL), _Gerald Murphy_
- - [An introduction to C*-algebras and the classification programme](https://strung.me/karen/CStarIntroDraft.pdf), _Karen R. Strung_. This book gives more intuition to the topics in Murphy. Read first 4 Chapters for a quick intro to the subject.
- - [Fundamentals of the Theory of Operator Algebras](https://g.co/kgs/tRvPCy), _Richard Kadison_, _John Ringrose_
+ - [C* Algebras and Operator Theory](https://g.co/kgs/jo2MVL), Gerald Murphy
+ - [An introduction to C*-algebras and the classification programme](https://strung.me/karen/CStarIntroDraft.pdf), Karen R. Strung. _This book gives more intuition to the topics in Murphy. Read first 4 Chapters for a quick intro to the subject._
+ - [Fundamentals of the Theory of Operator Algebras](https://g.co/kgs/tRvPCy), Richard Kadison, John Ringrose
 
 ### Articles
- - [Noncommutative functional analysis](https://www.math.uh.edu/~dblecher/canisius.pdf), David Bletcher. A simple introduction to C* algebras for undergrads.
+ - [Noncommutative functional analysis](https://www.math.uh.edu/~dblecher/canisius.pdf), David Bletcher. _A simple introduction to C* algebras for undergrads._
 
 ### Other Webpages
  - [Operator Algebra Searchable Information Site](https://operatoralgebras.org/)
