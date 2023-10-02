@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-date: 2023-09-25T13:45:19+05:30
+date: 2023-10-02T13:45:19+05:30
 draft: false
 
 # weight: 1
@@ -43,6 +43,9 @@ editPost:
  - [C* Algebras and Operator Theory](https://g.co/kgs/jo2MVL), _Gerald Murphy_
  - [An introduction to C*-algebras and the classification programme](https://strung.me/karen/CStarIntroDraft.pdf), _Karen R. Strung_. This book gives more intuition to the topics in Murphy. Read first 4 Chapters for a quick intro to the subject.
  - [Fundamentals of the Theory of Operator Algebras](https://g.co/kgs/tRvPCy), _Richard Kadison_, _John Ringrose_
+
+### Articles
+ - [Noncommutative functional analysis](https://www.math.uh.edu/~dblecher/canisius.pdf), David Bletcher. A simple introduction to C* algebras for undergrads.
 
 ### Other Webpages
  - [Operator Algebra Searchable Information Site](https://operatoralgebras.org/)
