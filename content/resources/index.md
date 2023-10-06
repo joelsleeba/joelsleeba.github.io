@@ -50,6 +50,7 @@ editPost:
 
 ### Other Webpages
  - [Operator Algebra Searchable Information Site](https://operatoralgebras.org/)
+ - [Operator algebraists worldwide](https://www.facebook.com/groups/20353621173/) A facebook group
 
 
 # Programming and Linux
