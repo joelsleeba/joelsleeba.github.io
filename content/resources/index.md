@@ -37,9 +37,10 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-# Operator Algebras
+# Functional Analysis and Operator Algebras
 
 ### Books
+ - [Functional Analysis: Spectral Theory](https://www.imsc.res.in/~sunder/fa.pdf), V. S. Sunder
  - [C* Algebras and Operator Theory](https://g.co/kgs/jo2MVL), Gerald Murphy
  - [An introduction to C*-algebras and the classification programme](https://strung.me/karen/CStarIntroDraft.pdf), Karen R. Strung. _This book gives more intuition to the topics in Murphy. Read first 4 Chapters for a quick intro to the subject._
  - [Fundamentals of the Theory of Operator Algebras](https://g.co/kgs/tRvPCy), Richard Kadison, John Ringrose
@@ -51,7 +52,8 @@ editPost:
  - [Operator Algebra Searchable Information Site](https://operatoralgebras.org/)
 
 
-# Linux
- - [Linux Bible](https://g.co/kgs/SW5Jms), _Christopher Negus_
+# Programming and Linux
+ - [Linux Bible](https://g.co/kgs/SW5Jms), Christopher Negus
  - [Arch Wiki](https://wiki.archlinux.org/). (bTw, I'm aN ArCh UseR)
- - [Linux From Scratch](https://www.linuxfromscratch.org/). _(If you want to truly master the art)_
+ - [Linux From Scratch](https://www.linuxfromscratch.org/). _If you want to truly master the art_
+ - [MOOC.fi](https://www.mooc.fi/en) checkout their _Introuduction to Programming_ course hosted every year.
