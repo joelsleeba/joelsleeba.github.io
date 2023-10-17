@@ -70,7 +70,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Joel Sleeba
-    subtitle: "I am a math graduate from [IISER Thiruvananthapuram](https://iisertvm.ac.in). As part of my Master's thesis, I worked on Fourier analysis under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Currently, I am reading [Unitary Invariants for Representations of Operator Algebras](https://doi.org/10.2307/1970002) with [Dr. Soumyashant Nayak](https://www.isibang.ac.in/~soumyashant/). I am also learning to use [Lean theorem prover](https://leanprover-community.github.io/index.html) by working through [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/index.html). Besides math, I am interested in computer programming, Linux, photography and movies. You can find some of my projects in my GitHub repositories."
+    subtitle: "I am a math graduate from [IISER Thiruvananthapuram](https://iisertvm.ac.in). As part of my Master's thesis, I worked on Fourier analysis under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Currently, I am reading [Unitary Invariants for Representations of Operator Algebras](https://doi.org/10.2307/1970002) with [Dr. Soumyashant Nayak](https://www.isibang.ac.in/~soumyashant/). Besides math, I am interested in computer programming, Linux, photography and movies. You can find some of my projects in my GitHub repositories."
     imageUrl: "profile.png"
     imageWidth: 160
     imageHeight: 160
