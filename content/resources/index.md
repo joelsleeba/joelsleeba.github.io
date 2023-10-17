@@ -44,6 +44,7 @@ editPost:
  - [C* Algebras and Operator Theory](https://g.co/kgs/jo2MVL), Gerald Murphy
  - [An introduction to C*-algebras and the classification programme](https://strung.me/karen/CStarIntroDraft.pdf), Karen R. Strung. _This book gives more intuition to the topics in Murphy. Read first 4 Chapters for a quick intro to the subject._
  - [Fundamentals of the Theory of Operator Algebras](https://g.co/kgs/tRvPCy), Richard Kadison, John Ringrose
+ - [Completely Bounded Maps and Operator Algebras](https://www.cambridge.org/core/books/completely-bounded-maps-and-operator-algebras/47AF05B5F924ADE4FA30770B10050B76), Vern Paulsen. _A second read in operator algebras._
 
 ### Articles
  - [Noncommutative functional analysis](https://www.math.uh.edu/~dblecher/canisius.pdf), David Bletcher. _A simple introduction to C* algebras for undergrads._
