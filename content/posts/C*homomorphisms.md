@@ -47,9 +47,10 @@ editPost:
 7. Positive linear functionals of a C* algebra are those linear functionals (need not be a * homomorphism) where the image of the positive elements of the C* algebra lie the non-negative real line. Clearly positive linear functionals are hermitian.
 8. Every multiplicative * linear functional is positive.
 9. A bounded linear functional $\phi$ in a unital C* algebra is positive if and only if $\|\phi\| = \phi(1)$. _(Cor. 3.3.4, Murphy)_
-10. Every hermitian linear functional can be written as the difference of two positive linear functionals. _(Jordan decomposition, Thm 3.3.10, Murphy)_
-11. States are defined to be those positive linear functionals with norm 1.
-12. Convex combinations of states are again states.
-13. Pure states of a C* algebra are those states which cannot be written as a convex combination of any other state.
+10. Every hermitian linear functional on a C* algebra can be written as the difference of two positive linear functionals. _(Jordan decomposition, Thm 3.3.10, Murphy)_
+11. Every linear functional $f$ on a C* algebra can be written as $f = g+ih$ where $g, h$ are hermitian linear funcional.
+12. States are defined to be those positive linear functionals with norm 1.
+13. Convex combinations of states are again states.
+14. Pure states of a C* algebra are those states which cannot be written as a convex combination of any other state.
 
 So essentially every multiplicative * linear functional on a C* algebra can be written as a linear combination of pure states.
