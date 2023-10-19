@@ -59,7 +59,7 @@ params:
     favicon16x16: "favicon/favicon-16x16.png"
     favicon32x32: "favicon/favicon-32x32.png"
     apple_touch_icon: "favicon/apple-touch-icon.png"
-    safari_pinned_tab: "favicon/safari-pinned-tab.png"
+    safari_pinned_tab: "favicon/apple_touch_icon.png"
 
   label:
     text: "Joel Sleeba"
@@ -74,7 +74,7 @@ params:
     imageUrl: "profile.png"
     imageWidth: 160
     imageHeight: 160
-    imageTitle: my image
+    imageTitle: Joel Sleeba
     buttons:
       - name: Posts
         url: posts
@@ -132,6 +132,7 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
     - identifier: search
@@ -166,6 +167,7 @@ menu:
     #   name: About
     #   url: https://joelsleeba.github.io
     #   weight: 70
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
