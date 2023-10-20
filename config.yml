@@ -36,8 +36,8 @@ params:
 
   ShowReadingTime: false
   ShowShareButtons: false
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: false
+  ShowPostNavLinks: false
+  ShowBreadCrumby: false
   ShowCodeCopyButtons: false
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
@@ -60,6 +60,7 @@ params:
     favicon32x32: "favicon/favicon-32x32.png"
     apple_touch_icon: "favicon/apple-touch-icon.png"
     safari_pinned_tab: "favicon/apple_touch_icon.png"
+    theme_color: "#ff0000"
 
   label:
     text: "Joel Sleeba"
@@ -74,7 +75,7 @@ params:
     imageUrl: "profile.png"
     imageWidth: 160
     imageHeight: 160
-    imageTitle: Joel Sleeba
+    imageTitle: This is a picture of me.
     buttons:
       - name: Posts
         url: posts
