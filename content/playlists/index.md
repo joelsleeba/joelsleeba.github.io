@@ -6,6 +6,7 @@ draft: False
 
 {{<spotify type="playlist" id="2Sz2OgbRblsOt817XxIiIP" title="Coming for your head">}}
 {{<spotify type="playlist" id="5NrNILOuD5t1fi4GCaYw0f" title="Late Night Indie">}}
+{{<spotify type="playlist" id="0Q9VfXHQ2CHrCJj2ccTl80" title="Feels like love">}}
 {{<spotify type="playlist" id="372SAlrB0ORYpiu6ME0rgL" title="Crispy 808 Kadikal">}}
 {{<spotify type="playlist" id="6saUpn8tyLyDBNHYYQIJgt" title="മലയാളം max">}}
 <!-- {{<spotify type="playlist" id="5i1WQghgGmXoxleoyrgzMp" title="Moonlight & Mist of Kumily">}} -->
