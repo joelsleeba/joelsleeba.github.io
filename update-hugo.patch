@@ -1,0 +1,13 @@
+
+-    env:
+-      HUGO_VERSION: 0.147.1
+     steps:
++      - name: Get latest Hugo version
++        id: hugo_version
++        run: |
++          LATEST=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r '.tag_name' | sed 's/^v//')
++          echo "HUGO_VERSION=$LATEST" >> $GITHUB_ENV
+       - name: Install Hugo CLI
+         run: |
+           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
