@@ -56,8 +56,7 @@ params:
   social: true
 
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
+    disableFingerprinting: true
     favicon: "favicon/favicon.ico"
     favicon16x16: "favicon/favicon-16x16.png"
     favicon32x32: "favicon/favicon-32x32.png"
@@ -74,8 +73,14 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Joel Sleeba
-    subtitle: "I am a math graduate student at the [University of Houston](https://www.uh.edu/nsm/math/). Earlier, I graduated with a masters in mathematics from [IISER Thiruvananthapuram](https://iisertvm.ac.in). I am interested in mathematical analysis and its applications. Besides math, I am interested in computer programming, Linux and FOSS."
-    imageUrl: "profile.png"
+    subtitle:
+      "I am a math PhD candidate at the [University of
+      Houston](https://www.uh.edu/nsm/math/). Earlier, I graduated with a
+      masters in mathematics from [IISER
+      Thiruvananthapuram](https://iisertvm.ac.in). I am interested in free
+      probability and its applications. I am also a street photogrpher, and is
+      intersted in everything Linux."
+    imageUrl: "profile.jpg"
     imageWidth: 160
     imageHeight: 160
     imageTitle: This is a picture of me.
@@ -92,7 +97,16 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: "I am a math graduate student at University of Houston. I am a graduate from [IISER Thiruvananthapuram](https://iisertvm.ac.in). As part of my Master's thesis, I worked on Fourier analysis under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Currently, I am reading on C* algebras and operator theory with [Dr. P Shankar](https://iqac.cusat.ac.in/Web/profile_view/433/Dr.SHANKARP). Besides math, I am interested in computer programming, Linux, photography and movies. You can find some of my projects in my GitHub repositories."
+    Content:
+      "I am a math PhD candidate at University of Houston. Before Houston, I
+      graduated with a master's in mathematics from [IISER
+      Thiruvananthapuram](https://iisertvm.ac.in). As part of my Master's
+      thesis, I worked on Fourier analysis under the supervision of [Dr. P
+      Devaraj](https://iisertvm.ac.in/faculty/devarajp). Currently, I am reading
+      on C* algebras and operator theory with [Dr. P
+      Shankar](https://iqac.cusat.ac.in/Web/profile_view/433/Dr.SHANKARP).
+      Besides math, I am interested in computer programming, Linux, photography
+      and movies. You can find some of my projects in my GitHub repositories."
 
   socialIcons:
     - name: CV
