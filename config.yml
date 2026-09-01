@@ -119,8 +119,8 @@ params:
       url: "https://github.com/joelsleeba"
     - name: instagram
       url: "https://instagram.com/joelsleeba"
-    # - name: spotify
-    #   url: "https://open.spotify.com/user/tj3aoh2ul6zcp34iv1znb84nq"
+    - name: substack
+      url: "https://sleebster.substack.com"
 
   analytics:
     google:
