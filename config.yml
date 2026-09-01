@@ -113,14 +113,14 @@ params:
       url: "https://github.com/joelsleeba/CV/raw/master/joel_sleeba.pdf"
     - name: key
       url: "https://joelsleeba.github.io/landing-page/key/"
-    - name: twitter
-      url: "https://twitter.com/JoelSleeba"
+    # - name: twitter
+    #   url: "https://twitter.com/JoelSleeba"
     - name: github
       url: "https://github.com/joelsleeba"
     - name: instagram
       url: "https://instagram.com/joelsleeba"
     - name: substack
-      url: "https://sleebster.substack.com"
+      url: "https://sleebster.substack.com/?utm_campaign=profile_chips"
 
   analytics:
     google:
