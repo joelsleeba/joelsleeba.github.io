@@ -167,10 +167,10 @@ menu:
     #   name: Tags
     #   url: /tags/
     #   weight: 20
-    - identifier: playlists
-      name: Playlists
-      url: playlists
-      weight: 40
+    # - identifier: playlists
+    #   name: Playlists
+    #   url: playlists
+    # weight: 40
     - identifier: gallery
       name: Gallery
       url: gallery
